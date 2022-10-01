@@ -1,0 +1,28 @@
+FUNCION JABA JS 
+
+function suma() {
+  resultado = 5 + 6
+  console.log(resultado)
+}
+suma()
+En JABA debemos no solo definir la funcion tambien debemos llamarla
+
+ARRAY
+//encontrar el numero mayor de un array
+
+let numeros = [5, 10, 15, 60, 8]
+let numeroMaximo = 0
+let tamano = numeros.length
+
+for(let i=0; i<tamano; i++) {
+  if (numeroMaximo < numeros[i]) {
+    numeroMaximo = numeros[i]
+  }
+}
+console.log(numeroMaximo)
+
+//quiere decir que vamos a empezar desde 0//
+
+
+i=0 (empiza desde la pocision 0= 
+i< tamano ()
